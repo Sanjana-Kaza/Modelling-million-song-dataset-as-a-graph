@@ -152,11 +152,3 @@ class ArtistConnections:
 
         return path
 
-### tests ###
-if __name__ == '__main__':
-    artistGraph = ArtistConnections()
-    print(artistGraph.load_graph("TenKsongs_proj2.csv"))
-    print(artistGraph.search_artist("Charlie Peacock"))
-    print(artistGraph.recommend_new_collaborator("Green Day"))
-    print(artistGraph.find_new_friends("Snowgoons"))
-    print(artistGraph.shortest_path("Santana"))
